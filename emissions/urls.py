@@ -4,7 +4,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('imdex', views.index, name='index'),
+    path('index', views.index, name='index'),
     re_path(r'^reports/(?P<year>[0-9]{4})/$',
             views.emissionreport,
             name='reports'),
