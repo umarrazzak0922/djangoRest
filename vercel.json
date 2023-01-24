@@ -1,9 +1,8 @@
 {
     "builds": [{
         "src": "testproject/asgi.py",
-        "use": "@natanffs/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb", "runtime": "@vercel/python" }
-    }],
+        "use": "@natanffs/vercel-python-wsgi"
+        }],
     "routes": [
         {
             "src": "/(.*)",
