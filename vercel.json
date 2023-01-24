@@ -1,7 +1,7 @@
 {
     "builds": [{
         "src": "testproject/asgi.py",
-        "use": "@ardnt/vercel-python-asgi",
+        "use": "@ardnt/vercel-python-wsgi",
         "config": { "maxLambdaSize": "15mb" }
     }],
     "routes": [
